@@ -122,10 +122,6 @@
     margin-top: 3%;
     font-size: 20px;
 }
-.description {
-    margin-top: -28%;
-    width: 35%;
-}
 .nftDescription {
     font-size: 15px;
 }
@@ -190,6 +186,189 @@
 .bidInfo {
     margin-top: 3%;
 }
+@media only screen and (min-width: 768px) {
+    .nftEditMain {
+        background-color: yellowgreen;
+    }
+    .nftBuyBtn {
+        width: 94%;
+        margin-top: 2%;
+    }
+    .description {
+        margin-top: -45%;
+        width: 40%;
+    }
+    .details {
+        margin-top: 40px;
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .nftEditMain {
+        background-color: yellow;
+    }
+    .nftBuyBtn {
+        width: 45%;
+        margin-top: 2%;
+    }
+    .details{
+        margin-left: 20%;
+    }
+    .nftEditImg {
+        width: 450px;
+        height: 350px;
+        margin-top: 5%;
+        margin-left: 18%;
+        border-radius: 10px;
+        box-shadow: 0px 2px 29px 6px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 2px 29px 6px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 2px 29px 6px rgba(0, 0, 0, 0.75);
+    }
+    .nftInfoMain{
+        display: inline;
+    }
+    .description {
+        margin-top: -49%;
+        width: 40%;
+    }
+    .nftEditBtn{
+        width: 30%;
+        margin-left: 20%;
+    }
+    .nftDeleteBtn{
+        width: 30%;
+    }
+    .nftPrice{
+        margin-left: 45%;
+        margin-top: -13%;
+    }
+    .nftInfo{
+        margin-top: 10%;
+    }
+    .noItemsImg {
+        width: 60px;
+        margin-left: 42%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .nftEditMain {
+        background-color: rgb(196, 194, 194);
+    }
+    .nftInfoMain{
+        display: flex;
+    }
+    .nftInfoMain{
+        display: inline;
+    }
+    .nftEditImg {
+        width: 450px;
+        height: 350px;
+        margin-top: 20%;
+        margin-left: 1%;
+        border-radius: 10px;
+        box-shadow: 0px 2px 29px 6px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 2px 29px 6px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 2px 29px 6px rgba(0, 0, 0, 0.75);
+    }
+    .nftBuyBtn {
+        width: 64%;
+        margin-top: 2%;
+    }
+    .bidHistory{
+        width: 90%;
+        margin: 5%;
+    }
+    .bidOffers{
+        width: 90%;
+        margin: 5%;
+    }
+    .noItemsImg {
+        width: 60px;
+        margin-left: 43%;
+    }
+    .details {
+        margin-top: 40px;
+        margin-left: 5%;
+        width: 90%;
+    }
+    .nftEditBtn{
+        width: 30%;
+        margin-left: 20%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .nftEditMain {
+        background-color: red;
+    }
+    .nftInfoMain{
+        display: flex;
+    }
+    .description {
+        margin-top: -37%;
+        width: 40%;
+    }
+    .nftBuyBtn {
+        width: 66%;
+        margin-top: 2%;
+    }
+    .details {
+        margin-top: 40px;
+        width: 41%;
+        margin-left: 0;
+    }
+    .nftEditBtn{
+        width: 15%;
+        margin-left: 0%;
+    }
+    .nftDeleteBtn{
+        width: 15%;
+        margin-left: 0%;
+    }
+    .nftEditImg {
+        width: 450px;
+        height: 350px;
+        margin-top: 0%;
+        margin-left: 0%;
+        border-radius: 10px;
+        box-shadow: 0px 2px 29px 6px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 2px 29px 6px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 2px 29px 6px rgba(0, 0, 0, 0.75);
+    }
+    .nftPrice{
+        margin-left: 0%;
+        margin-top: 7%;
+    }
+    .nftInfo{
+        margin-top: 0%;
+    }
+    .noItemsImg {
+        width: 60px;
+        margin-left: 44%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .nftEditMain {
+        background-color: blue;
+    }
+    .nftBuyBtn {
+        width: 46%;
+    }
+    .description {
+        margin-top: -28%;
+        width: 35%;
+    }
+    .details {
+        margin-top: 40px;
+        width: 35%;
+    }
+    .noItemsImg {
+        width: 60px;
+        margin-left: 45%;
+    }
+}
+
 /*------------------------------------------------------ Edit Modal -----------------------------------------------------------------------------*/
 
 .editModal {
