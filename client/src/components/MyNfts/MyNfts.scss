@@ -1,0 +1,52 @@
+.myNftsMain {
+    margin-top: 8%;
+}
+.myNftsheader {
+    font-weight: bold;
+    margin: 0 0 0% 10%;
+    -webkit-text-stroke: 1px black;
+    color: #5b5b5b;
+    font-size: 50px;
+}
+.myNftsLine {
+    margin-bottom: 6%;
+}
+.myNftsNull {
+    text-align: center;
+    color: rgb(199, 34, 34);
+    font-weight: bold;
+}
+.myNftsNullBtn{
+    background-color: #a60d0d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 35px 12px 35px;
+    margin: 20px 50px;
+    transition: all 0.5s ease 0s;
+}
+.myNftsNullBtn:hover {
+    background-color: #d32121;
+}
+.myNfts {
+    text-align: center;
+}
+.search {
+    width: 35%;
+    margin: 0 0 2% 55%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 5px;
+    padding: 6px;
+    background-color: transparent;
+}
+.faSearch {
+    float: right;
+    margin: -4% 12%;
+}
+.search:focus {
+    border: 2px solid #555;
+}

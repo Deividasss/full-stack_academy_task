@@ -1,0 +1,46 @@
+.loginMain {
+  margin-top: 8%;
+}
+.loginCard {
+  border: solid 2px black;
+  border-radius: 50px;
+}
+.loginLogoImg {
+  width: 200px;
+  padding: 15px 0 15px 0;
+}
+.formBackground {
+  background-color: #c3cfd0a9;
+}
+.signInHeading {
+  margin-top: 5%;
+}
+.loginFormBtn {
+  background-color: rgb(209, 89, 4);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 35px 12px 35px;
+  box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
+  transition: all 0.5s ease 0s;
+}
+.loginFormBtn:hover {
+  background-color: rgb(236, 126, 48);
+}
+.registerLink{
+  text-decoration: none;
+  color: rgb(209, 89, 4);
+  cursor: pointer;
+}
+.registerLink:hover{
+  text-decoration: underline;
+  color: rgb(236, 126, 48);
+}
+.loginMainCard{
+  width: 75%;
+  margin: auto;
+}
+
+/* https://lh3.googleusercontent.com/cfn1D3xGaA7I3yWw0okwoxk_n27rlYQV1g3-Os3RXng1SE3Bq4cnYFGqb9my8tNlB_DVHO4vDb2pcjCFnlepnwgT7k8QXH3jPki0=w600 */

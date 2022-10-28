@@ -1,0 +1,49 @@
+.crowdFundCreate h1 {
+    font-weight: bold;
+}
+.crowdFundCreate {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    hr {
+        margin-bottom: 5%;
+    }
+}
+
+label {
+    text-align: left;
+}
+.createNftMain {
+    margin-top: 6%;
+}
+.createNftHeader {
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+    font-size: 50px;
+}
+.createNftForm {
+    background-color: rgba(137, 137, 137, 0.13);
+    padding: 5%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 32px 18px rgba(158, 158, 158, 0.66);
+    -webkit-box-shadow: 10px 10px 32px 18px rgba(158, 158, 158, 0.66);
+    -moz-box-shadow: 10px 10px 32px 18px rgba(158, 158, 158, 0.66);
+}
+.createNftBtn2 {
+    background-color: rgb(209, 89, 4);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 35px 12px 35px;
+    margin: 20px 50px;
+    box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
+    transition: all 0.5s ease 0s;
+}
+.createNftBtn2:hover {
+    background-color: rgb(236, 126, 48);
+}
+.networkInfo {
+    color: rgb(56, 90, 120);
+}
