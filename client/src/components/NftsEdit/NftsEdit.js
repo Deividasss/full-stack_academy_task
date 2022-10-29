@@ -113,6 +113,12 @@ export default (props) => {
       });
   };
 
+  function autoheight(element) {
+    var el = document.getElementById(element);
+    el.style.height = "5px";
+    el.style.height = (el.scrollHeight) + "px";
+  }
+
   return (
     <>
       <Container className="nftEditMain">
@@ -156,7 +162,9 @@ export default (props) => {
               <div className="description">
                 <h3 className="nftDescriptionTitle">Description:</h3>
                 <hr className="nftHrLine"></hr>
-                <h3 className="nftDescription">{cfForm.description}</h3>
+                <div contenteditable="true">
+                  <textarea readOnly onkeyup="autoheight('ta')" className="nftDescription">{cfForm.description}</textarea>
+                </div>
               </div>
               <div className="details">
                 <h3 className="nftDetails">Details:</h3>

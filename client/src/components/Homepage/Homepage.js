@@ -21,7 +21,7 @@ export default (props) => {
           <h1 className="heading" >Sveiki "Present Connection" !! </h1>
           <h3 className="paragraph">Džiaugiuosi jog suteikėte galimybę dalyvauti "Full-stack Academy'22. Perskaičius užduotį ilgai negalvojus į galvą atėjo idėja, kurią galėčiau įgyvendinti. Kadangi domiuosi kripto valiuta sugalvojau jog galiu sukurti NFT market'ą, kuriame galite savo fantazijos pagalba sukurti ir patalpinti NFT. <br></br>
             {props.loggedIn === true && props.userRole === 0 && (<span className="loginToEnter">Sveikinu prisijungus!! Dabar galite įkelti savo NFT</span>)}
-            {props.loggedIn === false && (<span className="loginToEnter">Norėdami pamatyti kaip man sekėsi įgyvendinti šią idėją prisijunkite</span>)}
+            {props.loggedIn === false && (<span className="loginToEnter">Norėdami pamatyti kaip man sekėsi prisijunkite</span>)}
           </h3>
           <div className="btnContainer">
             {props.loggedIn === true && props.userRole === 0 && (
