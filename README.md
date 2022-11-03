@@ -2,7 +2,7 @@
 
 ## In the project, you have two different folders, client (the React app) and server (MySql server). 
 
-### You may run the React client with npm start in the client directory (after npm install, of course).
+### `You may run the React client with npm start in the client directory (after npm install, of course).`
 
 
 ## In the project you will find:
