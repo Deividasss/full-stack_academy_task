@@ -185,6 +185,7 @@ export default (props) => {
       </Container>
       <Modal className="itemModal" onHide={closeModal} show={modal} aria-labelledby="contained-modal-title-vcenter" centered>
         <div className="editModal">
+          <button className="exitBtn" onClick={closeModal}>X</button>
           <form className="ui form" onSubmit={handleSubmit}>
             <h3 className="editNftHeading">----- Edit NFT -----</h3>
             <hr></hr>
@@ -256,6 +257,7 @@ export default (props) => {
 
       <Modal className="itemModal" show={warning} onHide={closeWarning} aria-labelledby="contained-modal-title-vcenter" centered>
         <div className="deleteModal">
+          <button className="exitBtn" onClick={closeWarning}>X</button>
           {messages.message && (
             <Alert variation={messages.status}>{messages.message}</Alert>
           )}

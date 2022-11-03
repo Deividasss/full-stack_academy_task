@@ -19,6 +19,10 @@ export default () => {
   const [UserId, setUserId] = useState(0);
 
   useEffect(() => {
+    document.title = "Full-Stack Academy'22"
+  }, []);
+
+  useEffect(() => {
     axios.get("/checkAuth", { withCredentials: true }).then((resp) => {
       console.log(resp);
       if (resp.data.id) {

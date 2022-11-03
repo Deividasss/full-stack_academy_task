@@ -14,6 +14,7 @@
 }
 .signInHeading {
   margin-top: 5%;
+  font-family: sans-serif;
 }
 .loginFormBtn {
   background-color: rgb(209, 89, 4);
@@ -25,6 +26,8 @@
   -webkit-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
   transition: all 0.5s ease 0s;
+  font-weight: bold;
+  
 }
 .loginFormBtn:hover {
   background-color: rgb(236, 126, 48);
@@ -33,6 +36,7 @@
   text-decoration: none;
   color: rgb(209, 89, 4);
   cursor: pointer;
+  font-family: sans-serif;
 }
 .registerLink:hover{
   text-decoration: underline;

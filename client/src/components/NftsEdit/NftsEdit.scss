@@ -19,14 +19,18 @@
 .nftPriceLine {
     color: rgba(104, 104, 104, 0.54);
     font-size: 14px;
+    font-weight: bold;
     position: absolute;
+    font-family: sans-serif;
 }
 .nftTitle {
     font-size: 40px;
+    font-family: sans-serif;
 }
 .nftCollection {
     font-size: 20px;
     color: rgba(180, 38, 38, 0.589);
+    font-family: sans-serif;
 }
 .collectionImg {
     width: 20px;
@@ -41,15 +45,18 @@
 .nftDolers {
     color: rgba(104, 104, 104, 0.54);
     font-size: 15px;
+    font-weight: bold;
     position: absolute;
     margin: 0 0 0 15px;
+    font-family: sans-serif;
 }
 .nftTimer {
     margin: 2% 5%;
 }
 .timerEnd {
-    font-size: 14px;
     color: rgba(0, 0, 0, 0.652);
+    font-size: 15px;
+    font-family: sans-serif;
 }
 .myTimer {
     float: right;
@@ -62,12 +69,14 @@
     color: white;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
     padding: 12px 100px 12px 100px;
     margin-right: 8px;
     box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     transition: all 0.5s ease 0s;
+    letter-spacing: 1px;
 }
 .nftBidBtn:hover {
     background-color: rgb(236, 126, 48);
@@ -77,11 +86,13 @@
     color: white;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
     padding: 12px 100px 12px 100px;
     box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     transition: all 0.5s ease 0s;
+    letter-spacing: 1px;
 }
 .nftBuyBtn:hover {
     background-color: rgb(236, 126, 48);
@@ -93,6 +104,7 @@
     background-color: rgb(209, 89, 4);
     color: white;
     border: none;
+    font-weight: bold;
     border-radius: 5px;
     padding: 12px 40px 12px 40px;
     margin-right: 10px;
@@ -100,6 +112,7 @@
     -webkit-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     transition: all 0.5s ease 0s;
+    letter-spacing: 1px;
 }
 .nftEditBtn:hover {
     background-color: rgb(236, 126, 48);
@@ -108,12 +121,14 @@
     background-color: rgb(209, 89, 4);
     color: white;
     border: none;
+    font-weight: bold;
     border-radius: 5px;
     padding: 12px 40px 12px 40px;
     box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     transition: all 0.5s ease 0s;
+    letter-spacing: 1px;
 }
 .nftDeleteBtn:hover {
     background-color: rgb(236, 126, 48);
@@ -121,6 +136,7 @@
 .nftDescriptionTitle {
     margin-top: 3%;
     font-size: 20px;
+    font-family: sans-serif;
 }
 .nftDescription {
     background-color: transparent;
@@ -137,26 +153,32 @@
 }
 .nftDetails {
     font-size: 20px;
+    font-family: sans-serif;
 }
 .nftCreator {
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(0, 0, 0, 0.652);
+    font-family: sans-serif;
 }
 .nftCreatorEmail {
     float: right;
     color: rgba(0, 0, 0, 0.773);
+    font-family: sans-serif;
+    font-weight: bold;
 }
 .nftNetwork {
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(0, 0, 0, 0.652);
+    font-family: sans-serif;
 }
 .nftNetworkInfo {
     float: right;
     color: rgba(0, 0, 0, 0.773);
 }
 .nftCollection2 {
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(0, 0, 0, 0.652);
+    font-family: sans-serif;
 }
 .nftCollectionInfo {
     float: right;
@@ -182,12 +204,15 @@
 .noItemsHeading {
     font-size: 16px;
     text-align: center;
+    font-family: sans-serif;
 }
 .bidHistoryHeading {
     font-size: 22px;
+    font-family: sans-serif;
 }
 .bidOffersHeading {
     font-size: 22px;
+    font-family: sans-serif;
 }
 .bidInfo {
     margin-top: 3%;
@@ -303,7 +328,7 @@
         width: 40%;
     }
     .nftBuyBtn {
-        width: 58%;
+        width: 63%;
         margin-top: 2%;
     }
     .details {
@@ -373,6 +398,16 @@
     -webkit-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
 }
+.exitBtn{
+    float: right;
+    border: none;
+    margin-top: -20px;
+    background-color: transparent;
+    font-size: 20px;
+}
+.exitBtn:hover{
+    color: rgb(193, 87, 22);
+}
 .editNftHeading {
     font-size: 20px;
     text-align: center;
@@ -389,6 +424,7 @@
     -webkit-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     transition: all 0.5s ease 0s;
+    letter-spacing: 1px;
 }
 .editBtn:hover {
     background-color: rgb(236, 126, 48);
@@ -415,6 +451,7 @@
     -moz-box-shadow: -2px 1px 22px -7px rgba(0, 0, 0, 0.75);
     margin-top: 2%;
     transition: all 0.5s ease 0s;
+    letter-spacing: 1px;
 }
 .deleteModalBtn:hover {
     background-color: rgb(236, 126, 48);
